@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pappins",sans-serif;
+}
+body{
+    width: 100%;
+    height: 340vh;
+    background-color: rgb(24, 1, 24);
+    
+}
+header{
+    width: 80%;
+    height: 10vh;
+    background-color: rgb(24, 1, 24);
+    margin: 20px auto 20px auto;
+    margin-left: 90px;
+    position: fixed;
+   
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navbar .menu{
+    display: flex;
+    margin-top:20px;   
+}
+.food a{
+    margin-top:20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+    color: orangered;
+
+}
+.food ::selection{
+    
+    background-color:orangered;
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    margin: 0px 10px ;
+}
+.navbar .menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu li a:hover{
+    color: #fc5615;
+
+}
+
+.burger img{
+    width: 400px;
+    transform: translate(160%,20%);
+
+}
+.text{
+    /*transform: translate(15%,-25%);*/
+    margin-top:-180px;
+    margin-left: 200px;
+    perspective: 300px;
+}
+.text .full{
+    color:fc5615;
+    font-size: 45px;
+    font-weight: bold;
+}
+.text .full::selection{
+    color: #fff;
+    background-color: #fc5615;   
+    font-size: 50px;
+}
+.text .most{
+    
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+.text .most::selection{
+    color: #fff;
+    background-color: #fc5615; 
+    font-size: 25px;  
+}
+.text input{
+    font-size: 12px;
+    color: #fff;
+    background-color: #fc5615;
+    border-radius: 5px;
+    padding: 5px 13px 5px 13px;
+    transition: all 0.9s ease;  
+}
+.text input:hover{  
+    transform: translate3d(15px,15px,15px);  
+}
+.speak .frite img{
+    width: 340px;
+    margin-left: 200px;
+    margin-top: 280px;
+}
+.speak .paragraphe{
+    margin-left: 650px;
+    margin-top: -230px;
+}
+
+.paragraphe .about{
+    color: #fc5615;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+.paragraphe .good{
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+}
+.paragraphe .good-text{
+    color: #fff;
+    
+    font-size: 12px;
+    margin-top: 10p;
+    margin-bottom: 15px;
+
+}
+.paragraphe input{
+    font-size: 12px;
+    color: #fff;
+    background-color: #fc5615;
+    border-radius: 5px;
+    padding: 5px 13px 5px 13px;
+    transition: all 0.9s ease; 
+}
+.paragraphe input:hover{  
+    transform: translate3d(15px,15px,15px);  
+}
+.fresh{
+    margin-left: 250px; 
+}
+.fresh .text{
+    margin-top: 180px;
+    margin-left: 380px;
+    color: #fff;
+}
+.text .food-menu{
+    color: #fc5615;
+    font-size: 12px;
+}
+.text .fresh-taste{
+    color:#fff;
+    font-weight: bold;
+    font-size: 26px;
+    margin-left: -120px;
+}
+.fresh .image{
+    
+    margin-top: -220px;
+    margin-left: -50px;
+
+}
+.image .chicken{
+    margin-top: 250px;
+    border: 1px solid black;
+    background-color: beige;
+    width: 300px;
+    height: 210px;
+    border-radius: 8px;
+}
+.image .chicken img{
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.image .chicken i{
+    width: 20px;
+    height: 20px;
+    background-color: #fc7540;
+    color: #fff;
+margin-top: -140px;
+    margin-left: 278px;
+    margin-bottom:-180px ;
+
+}
+.image2 .chicken2 i{
+    width: 20px;
+    height: 20px;
+    background-color: #fc7540;
+    color: #fff;
+margin-top: -140px;
+    margin-left: 278px;
+    margin-bottom:-180px ;
+
+}
+.image3 .chicken3 i{
+    width: 20px;
+    height: 20px;
+    background-color: #fc7540;
+    color: #fff;
+margin-top: -140px;
+    margin-left: 278px;
+    margin-bottom:-180px ;
+
+}
+.chicken .chiken-burger{
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    margin-left: 80px;
+}
+.chicken .tasty{
+    font-size: 13px;
+    color: gray;
+    margin-left: 110px;
+    padding-top: 5px;
+}
+.chicken .prix{
+    font-size: 11px;
+    color:#fc7540;
+    margin-left: 120px;
+    padding-top: 5px;
+
+}
+
+.fresh .image2{
+    margin-top: -220px;
+    margin-left: 260px;
+}
+.image2 .chicken2{
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: beige;
+    width: 300px;
+    height: 210px;
+    border-radius: 8px;
+}
+.image2 .chicken2 img{
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.chicken2 .chiken-burger{
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    margin-left: 80px;
+}
+.chicken2 .tasty{
+    font-size: 13px;
+    color: gray;
+    margin-left: 110px;
+    padding-top: 5px;
+}
+.chicken2 .prix{
+    font-size: 11px;
+    color:#fc7540;
+    margin-left: 120px;
+    padding-top: 5px;
+
+}
+.fresh .image3{
+    margin-top: -220px;
+    margin-left: 570px;
+}
+.image3 .chicken3{
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: beige;
+    width: 300px;
+    height: 210px;
+    border-radius: 8px;
+}
+.image3 .chicken3 img{
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.chicken3 .chiken-burger{
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    margin-left: 80px;
+}
+.chicken3 .tasty{
+    font-size: 13px;
+    color: gray;
+    margin-left: 110px;
+    padding-top: 5px;
+}
+.chicken3 .prix{
+    font-size: 11px;
+    color:#fc7540;
+    margin-left: 120px;
+    padding-top: 5px;
+
+}
+.services{
+    margin-top: 100px;
+    margin-left: 600px;
+}
+.services .service{
+    font-size: 11px;
+    color:#fc7540;
+    font-weight: bold;
+}
+.services .provide{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: -110px;
+}
+.grp{
+    margin-left: 250px;
+    margin-top: 10px;
+    width: 250px;
+    height: 60px;
+}
+.grp .order img{
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 40px;
+
+}
+.grp .order p{
+    color:#fc5615;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.grp .order .par{
+    color:#fff;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.grp2{
+    margin-left: 500px;
+    margin-top: -66px;
+    width: 250px;
+    height: 60px;
+}
+
+.grp2 .order2 img{
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 40px;
+
+}
+.grp2 .order2 p{
+    color:#fc5615;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.grp2 .order2 .par{
+    color:#fff;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.grp3{
+    margin-left: 750px;
+    margin-top: -66px;
+    width: 250px;
+    height: 60px;
+}
+
+.grp3 .order3 img{
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 40px;
+
+}
+.grp3 .order3 p{
+    color:#fc5615;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.grp3 .order3 .par{
+    color:#fff;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.cadre{
+    width: 730px;
+    height: 190px;
+    background-color: rgb(243, 243, 209);
+    margin-left: 260px;
+    margin-top: 240px;
+    border-radius: 8px;
+}
+.cadre .txt{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-top: 40px;
+}
+.cadre input{
+    font-size: 12px;
+    color: #fff;
+    background-color: #fc5615;
+    border-radius: 5px;
+    padding: 5px 13px 5px 13px;
+    margin-left: 45%;
+    margin-top: 30px;
+    transition: all 0.9s ease;
+}
+.cadre input:hover{
+    transform: translate3d(15px,15px,15px);  
+
+
+}
+
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    margin-left: 150px;
+    margin-right: 110px;
+}
+.footer .menu-uniks{
+    margin-left: 10%;
+    margin-top: 45px;
+    padding-top: 25px;
+}
+.menu-uniks .box{
+    width:130px ;
+    display: inline-block;
+    justify-content: space-between;
+    margin-right: 140px;
+   
+}
+.menu-uniks .box li{
+    list-style: none;
+    margin: 9px 0 ;   
+}
+.box li a{
+    font-size:13px;
+    color: rgb(197, 196, 196);
+    text-decoration: none;
+    opacity: 0.8;
+}
+.box li a:hover{
+    opacity: 1;
+    color: #fff;
+}
+.box .uniks{
+    font-size:16px ;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.uniks .menu1{
+    border-bottom: 1px solid #fc5615 ;
+    border-block-end-width: 0.1px;
+}
+.box i{
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 2px;
+    background-color: #fc5615;
+    color: #fff;
+    margin-top: 7px;
+}
+.contact{
+margin-top: -140px;
+margin-left: 67%;
+}
+
+/*@media (min-width:768px){
+    body{
+        width: 750px;
+    }
+}*/
+@media (max-width:767px){
+    header .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu{
+        margin: 10px 0 20px 0;
+    }
+    .burger.text{
+        margin-top:-18px;
+        margin-left: 20px;
+        }
+    .burger.img{
+        width: 50px;
+        transform: translate(60%,2%);
+    }
+    
+}
